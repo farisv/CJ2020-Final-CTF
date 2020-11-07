@@ -1,6 +1,6 @@
 # Toko Masker 4
 
-## Build & Run
+## Deploy
 
 ```bash
 docker-compose build
@@ -10,3 +10,7 @@ docker-compose up -d
 docker-compose run web python manage.py migrate
 docker-compose run web python manage.py populate_db
 ```
+
+## Scenario
+
+No encryption key given during the competition so the expected solution is chosen-plaintext attack to forge valid encrypted bytes for 100 quantity of N99 mask with 0 price.
