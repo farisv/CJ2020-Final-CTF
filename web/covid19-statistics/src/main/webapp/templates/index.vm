@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>COVID-19 Statistics</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <header style="margin: 16px 0;">
+            <h2>COVID-19 Statistics</h2>
+        </header>
+
+        <table id="table" class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Country</th>
+                <th scope="col">Total Cases</th>
+                <th scope="col">Total Deaths</th>
+                <th scope="col">Total Recovered</th>
+            </tr>
+            </thead>
+        </table>
+    </div>
+
+    <script>
+        function insertRow(table, data) {
+            const row = table.insertRow();
+            for (const element of data) {
+                const cell = row.insertCell();
+                cell.innerText = element;
+            }
+        }
+        async function populate() {
+            const res = await fetch("https://api.covid19api.com/summary");
+            const data = await res.json();
+            const table = document.getElementById("table");
+            insertRow(table, [
+                "-",
+                "Global",
+                data.Global.TotalConfirmed,
+                data.Global.TotalDeaths,
+                data.Global.TotalRecovered,
+            ]);
+
+            const cases = data.Countries;
+            cases.sort((a, b) => b.TotalConfirmed - a.TotalConfirmed);
+            for (const [i, c] of cases.entries()) {
+                insertRow(table, [
+                    String(i+1),
+                    c.Country,
+                    c.TotalConfirmed,
+                    c.TotalDeaths,
+                    c.TotalRecovered,
+                ]);
+            }
+        }
+        populate().catch(console.error);
+    </script>
+</body>
+</html>

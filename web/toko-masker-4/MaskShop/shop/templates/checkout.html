@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mask Shop</title>
+
+    <link rel="stylesheet" href="static/style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" charset="utf-8"></script>
+    <meta name="robots" content="noindex,follow" />
+  </head>
+  <body>
+    <div class="shopping-cart">
+      <!-- Title -->
+      <div class="title">
+        <span>Mask Shop - Checkout</span>
+        <span style="float:right; font-size: 14px">Your balance: $100</span>
+      </div>
+
+      <div id="items">
+      </div>
+
+      <div>
+        <span id="total" style="float:right;padding-right:30px">Total: $0</span>
+      </div>
+      <div class="button">
+        <a href="#" class="btn orange">Proceed to Payment</a>
+      </div>
+      
+    </div>
+
+    <script type="text/javascript">
+        var urlParams = new URLSearchParams(window.location.search);
+
+        if (!urlParams.has('state')) {
+          window.location.href = '/';
+        }
+
+        var state = decodeURIComponent(urlParams.get('state'));
+
+        $('.btn').on('click', function(e) {
+            e.preventDefault();
+            window.location.href = 'invoice?state=' + encodeURIComponent(state);
+        });
+
+        fetch('./api/v1/getSelectedItems', {
+            method: 'post',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({'state' : state})
+        }).then(function(response) {
+            if (response.status !== 200) {
+                alert('Invalid state');
+                window.location.href = '/';
+                return;
+            }
+
+            response.json().then(function(data) {
+                var items = document.getElementById('items');
+
+                data['selectedItems'].forEach(renderItem);
+
+                function renderItem(detail) {
+                    let item = document.createElement('div');
+                    item.className = 'item';
+
+                    let imagePath = 'static/' + detail['image_path'];
+                    let name = detail['name'];
+                    let price = detail['price'];
+                    let quantity = detail['quantity'];
+                    let id = detail['pk'];
+
+                    let html = `<div class="buttons">
+                                </div>
+                                <div class="image">
+                                <img src="${imagePath}" alt="" width=120 height=80/>
+                                </div>
+
+                                <div class="description">
+                                <span>${name}</span>
+                                <span>Available</span>
+                                </div>
+
+                                <div class="quantity">
+                                <input type="text" id="${id}" value="${quantity}">
+                                </div>
+
+                                <div class="total-price">x $${price}</div>`;
+
+                    item.innerHTML = html;
+                    items.appendChild(item);
+
+                }
+                var totalPrice = document.getElementById('total');
+                total.innerHTML = `Total: $${data['totalPrice']}`;
+            });
+
+        })
+
+    </script>
+  </body>
+</html>

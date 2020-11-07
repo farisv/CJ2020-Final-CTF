@@ -1,0 +1,6 @@
+gunicorn==19.9.0
+Django==2.2.3
+mysqlclient==1.4.2.post1
+pytz==2019.1
+sqlparse==0.3.0
+pycrypto>=2.6.1

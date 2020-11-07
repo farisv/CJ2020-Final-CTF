@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>E-Ticket | {{ hotel_name }}</title>
+</head>
+<body>
+  <h1>{{ hotel_name }}</h1>
+  <p>{{ hotel_description }}</p>
+  <p>{{ hotel_price | currency }}</p>
+  <p>Status: <b>Paid</b></p>
+  <h2>Contact</h2>
+  <p>Email: {{ email | safe }}</p>
+  <p>Phone: {{ phone }}</p>
+  <h2>Guest</h2>
+  <p>Name: {{ guest }}</p>
+  <p>This e-ticket is a valid proof of payment.</p>
+</body>
+</html>

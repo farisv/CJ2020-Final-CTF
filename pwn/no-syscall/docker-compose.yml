@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  main:
+    build: .
+    restart: always
+    ports:
+      - "2001:8000"
+    network_mode: bridge
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined

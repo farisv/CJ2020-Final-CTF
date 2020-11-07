@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+:root {
+    --body-bg-color: #a2a2a2;
+    --tiles-bg-color: rgba(255, 255, 255, 0.8);
+    --tiles-bg-color-hover: rgba(230, 230, 230, 0.8);
+    ;
+    --tiles-blue-bg-color: #4f62ff;
+    --tiles-red-bg-color: #d22f2f;
+    --cell-size: 100px;
+    --cell-spacing: 10px;
+    --title-height: 30px;
+    --reset-height: 50px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    display: grid;
+    grid-template-columns: var(--cell-size) var(--cell-size) var(--cell-size);
+    grid-template-rows: var(--reset-height) var(--cell-size) var(--cell-size) var(--cell-size) var(--reset-height);
+    grid-gap: var(--cell-spacing);
+    justify-content: center;
+    align-content: center;
+}
+
+.title {
+    font-family: Roboto, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    height: var(--title-height);
+    line-height: var(--title-height);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.but {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    background-color: var(--tiles-bg-color);
+    width: var(--cell-size);
+    height: var(--cell-size);
+    border: none;
+    display: block;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5), 0 0 0 rgba(0, 0, 0, 0.5) inset;
+    transition: 0.1s box-shadow ease-out;
+}
+
+.but:active,
+.but.ai-active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5), 0 2px 5px rgba(0, 0, 0, 0.5) inset;
+}
+
+.but:hover {
+    background-color: var(--tiles-bg-color-hover);
+}
+
+.but.blue:after {
+    content: '✕';
+    color: var(--tiles-blue-bg-color);
+    font-size: 72px;
+    width: var(--cell-size);
+    height: var(--cell-size);
+    line-height: var(--cell-size);
+    display: block;
+}
+
+.but.red:after {
+    content: '〇';
+    color: var(--tiles-red-bg-color);
+    font-size: 72px;
+    width: var(--cell-size);
+    height: var(--cell-size);
+    line-height: var(--cell-size);
+    display: block;
+}
+
+#reset,
+#report {
+    width: 100%;
+    height: var(--reset-height);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

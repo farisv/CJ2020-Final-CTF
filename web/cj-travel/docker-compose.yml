@@ -1,0 +1,32 @@
+version: '3'
+services:
+  db:
+    image: mariadb:10
+    restart: always
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_DATABASE=cj_travel
+      - MYSQL_USER=cj_user
+      - MYSQL_PASSWORD=cj_password
+    env_file:
+      - ./.env
+    volumes:
+      - ./schema.sql:/docker-entrypoint-initdb.d/01-init.sql
+  web:
+    build: web
+    depends_on:
+      - db
+    restart: always
+    ports:
+      - ${PORT}:3000
+    env_file:
+      - ./.env
+    volumes:
+      - ./web/app.py:/app/app.py:ro
+      - ./web/templates:/app/templates:ro
+      - ./web/static:/app/static:ro
+  weasyprint:
+    build: weasyprint
+    restart: always
+    volumes:
+      - ./weasyprint/app.py:/app/app.py:ro

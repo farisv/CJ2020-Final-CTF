@@ -1,0 +1,11 @@
+{
+  "name": "tic-tac-toe-bot",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Muhamad Visat",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "puppeteer": "^5.3.1"
+  }
+}

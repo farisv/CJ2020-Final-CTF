@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  db:
+    image: mariadb:10.3.7
+    environment:
+       MYSQL_DATABASE: 'ctf_maskshop_db'
+       MYSQL_USER: 'ctf'
+       MYSQL_PASSWORD: 'ctf'
+       MYSQL_ROOT_PASSWORD: 'ctf'
+  web:
+    build: .
+    restart: on-failure
+    user: 'ctf:ctf'
+    command: ['gunicorn', '--workers=2', '--bind', '0.0.0.0:8000', 'MaskShop.wsgi:application']
+    ports:
+      - "127.0.0.1:1001:8000"
+    depends_on:
+      - db

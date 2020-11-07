@@ -1,0 +1,439 @@
+# Copyright (C) 2019 RSVPMaker
+# This file is distributed under the same license as the RSVPMaker package.
+msgid ""
+msgstr ""
+"Project-Id-Version: RSVPMaker 6.4.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rsvpmaker\n"
+"POT-Creation-Date: 2019-12-19 02:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-12-19 12:16-0300\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#: rsvpmaker-util.php:39
+msgid "End Time"
+msgstr "Término"
+
+#: rsvpmaker-util.php:42
+msgid "Not set (optional)"
+msgstr ""
+
+#: rsvpmaker-util.php:43
+msgid "Set end time"
+msgstr "Defina horário de Término"
+
+#: rsvpmaker-util.php:44
+msgid "All day/don't show time in headline"
+msgstr ""
+
+#: rsvpmaker-util.php:331
+msgid "Future Events"
+msgstr "Eventos Futuros"
+
+#: rsvpmaker-util.php:340
+msgid "Recent Events"
+msgstr "Eventos Recentes"
+
+#: rsvpmaker-display.php:77
+msgid "Guest limit reached"
+msgstr "Limite de Convidados atingido"
+
+#: rsvpmaker-display.php:202 rsvpmaker-display.php:993 rsvpmaker-widgets.php:49
+msgid "Go to Events Page"
+msgstr "Vá para a página do evento"
+
+#: rsvpmaker-display.php:486
+#, php-format
+msgid "View all posts by %s"
+msgstr "Ver todos os post por %s"
+
+#: rsvpmaker-display.php:489
+msgid "Posted by"
+msgstr "Postado por"
+
+#: rsvpmaker-display.php:503 rsvpmaker-display.php:506
+#: rsvpmaker-display.php:1616
+msgid "More Events"
+msgstr "Mais Eventos"
+
+#: rsvpmaker-display.php:630
+msgid "Title left blank"
+msgstr ""
+
+#: rsvpmaker-display.php:718 rsvpmaker-display.php:735
+#: rsvpmaker-display.php:1706
+msgid "Monday"
+msgstr "Segunda Feira"
+
+#: rsvpmaker-display.php:719 rsvpmaker-display.php:736
+#: rsvpmaker-display.php:1706
+msgid "Tuesday"
+msgstr "Terça Feira"
+
+#: rsvpmaker-display.php:720 rsvpmaker-display.php:737
+#: rsvpmaker-display.php:1706
+msgid "Wednesday"
+msgstr ""
+
+#: rsvpmaker-display.php:721 rsvpmaker-display.php:738
+#: rsvpmaker-display.php:1706
+msgid "Thursday"
+msgstr ""
+
+#: rsvpmaker-display.php:722 rsvpmaker-display.php:739
+#: rsvpmaker-display.php:1706
+msgid "Friday"
+msgstr ""
+
+#: rsvpmaker-display.php:723 rsvpmaker-display.php:740
+#: rsvpmaker-display.php:1706
+msgid "Saturday"
+msgstr "Sábado"
+
+#: rsvpmaker-display.php:724 rsvpmaker-display.php:734
+#: rsvpmaker-display.php:1706
+msgid "Sunday"
+msgstr ""
+
+#: rsvpmaker-display.php:805
+msgid "Month/Year"
+msgstr "Mês/Ano"
+
+#: rsvpmaker-display.php:805
+msgid "Go"
+msgstr ""
+
+#: rsvpmaker-display.php:1234
+msgid "If the chat prompt does not appear below,"
+msgstr ""
+
+#: rsvpmaker-display.php:1234
+msgid "please login to your YouTube/Google account"
+msgstr ""
+
+#: rsvpmaker-display.php:1234
+msgid "Then refresh this window."
+msgstr ""
+
+#: rsvpmaker-display.php:1376 rsvpmaker-display.php:1403
+#: rsvpmaker-display.php:1413 rsvpmaker-display.php:1502
+#: rsvpmaker-display.php:1526
+msgid "Event date is past"
+msgstr ""
+
+#: rsvpmaker-display.php:1572
+msgid "Please Register"
+msgstr "Por favor Registre-se"
+
+#: rsvpmaker-display.php:1584
+msgid "Type the hidden security message"
+msgstr ""
+
+#: rsvpmaker-display.php:1597
+msgid "Submit"
+msgstr "Enviar"
+
+#: rsvpmaker-display.php:1616
+msgid "Previous Events"
+msgstr ""
+
+#: rsvpmaker-display.php:1642
+msgid "RSVPs"
+msgstr ""
+
+#: rsvpmaker-display.php:1647
+msgid "None"
+msgstr "Nada"
+
+#: rsvpmaker-display.php:1667
+msgid "Hide The Menu on This Page"
+msgstr ""
+
+#: rsvpmaker-display.php:1707
+msgid "Varies"
+msgstr ""
+
+#: rsvpmaker-display.php:1707
+msgid "First"
+msgstr "Primeiro"
+
+#: rsvpmaker-display.php:1707
+msgid "Second"
+msgstr "Segundo"
+
+#: rsvpmaker-display.php:1707
+msgid "Third"
+msgstr "Terceiro"
+
+#: rsvpmaker-display.php:1707
+msgid "Fourth"
+msgstr "Quarto"
+
+#: rsvpmaker-display.php:1707
+msgid "Last"
+msgstr "Ultimo"
+
+#: rsvpmaker-display.php:1707
+msgid "Every"
+msgstr "Todos"
+
+#: rsvpmaker-display.php:1709
+msgid "Schedule Varies"
+msgstr ""
+
+#: rsvpmaker-display.php:1741
+msgid "signed up so far."
+msgstr ""
+
+#: rsvpmaker-display.php:1743
+msgid "Limit"
+msgstr "Limite"
+
+#: rsvpmaker-privacy.php:106
+msgid ""
+"When you register for an event managed with the RSVPMaker plugin, your name, "
+"email, and any other information you choose to supply to a database on the "
+"website and associated with that event. RSVPMaker does not collect other "
+"technical information such as IP address or location. It does attempt to add "
+"cookie files that make it easier for individuals to update their event "
+"registrations."
+msgstr ""
+
+#: rsvpmaker-email-template.php:144
+msgid "Read more"
+msgstr "Leia mais"
+
+#: rsvpmaker-email-template.php:210 rsvpmaker-email-template.php:220
+#: rsvpmaker-email-template.php:229
+msgid "MailChimp API error"
+msgstr ""
+
+#: rsvpmaker-email-template.php:227
+msgid "Sent MailChimp campaign"
+msgstr ""
+
+#: rsvpmaker.php:19
+msgid "RSVPmaker plugin requires WordPress 3.0 or greater"
+msgstr ""
+
+#: rsvpmaker.php:60 rsvpmaker.php:61
+msgid "RSVP Now!"
+msgstr ""
+
+#: rsvpmaker.php:75
+msgid "Email"
+msgstr ""
+
+#: rsvpmaker.php:76
+msgid "First Name"
+msgstr "Nome"
+
+#: rsvpmaker.php:77
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: rsvpmaker.php:79
+msgid "Phone"
+msgstr "Telefone"
+
+#: rsvpmaker.php:80
+msgid "Phone Type"
+msgstr "Tipo de Telefone"
+
+#: rsvpmaker.php:83
+msgid "Note"
+msgstr "Nota"
+
+#: rsvpmaker.php:122
+msgid "Thank you!"
+msgstr "Muito Obrigado"
+
+#: rsvpmaker.php:239 rsvpmaker.php:248
+msgid "RSVP Events"
+msgstr "RSVP Events"
+
+#: rsvpmaker.php:246
+msgid "Add New RSVP Event"
+msgstr ""
+
+#: rsvpmaker.php:247
+msgid "Edit RSVP Event"
+msgstr ""
+
+#: rsvpmaker.php:249
+msgid "RSVP Event"
+msgstr ""
+
+#: rsvpmaker.php:271
+msgctxt "taxonomy general name"
+msgid "Event Types"
+msgstr ""
+
+#: rsvpmaker.php:272
+msgctxt "taxonomy singular name"
+msgid "Event Type"
+msgstr ""
+
+#: rsvpmaker.php:273
+msgid "Search Event Types"
+msgstr ""
+
+#: rsvpmaker.php:274
+msgid "All Event Types"
+msgstr ""
+
+#: rsvpmaker.php:275
+msgid "Parent Event Type"
+msgstr ""
+
+#: rsvpmaker.php:276
+msgid "Parent Event Type:"
+msgstr ""
+
+#: rsvpmaker.php:277
+msgid "Edit Event Type"
+msgstr ""
+
+#: rsvpmaker.php:278
+msgid "Update Event Type"
+msgstr ""
+
+#: rsvpmaker.php:279
+msgid "Add New Event Type"
+msgstr ""
+
+#: rsvpmaker.php:280
+msgid "New Event Type"
+msgstr ""
+
+#: rsvpmaker.php:281
+msgid "Event Type"
+msgstr ""
+
+#: rsvpmaker.php:753
+msgid "payment for"
+msgstr "Pagamento para"
+
+#: rsvpmaker.php:753
+msgid " c/o Stripe transaction"
+msgstr ""
+
+#: rsvpmaker.php:753
+msgid "Post ID"
+msgstr ""
+
+#: rsvpmaker.php:753
+msgid "Time"
+msgstr "Hora"
+
+#: rsvpmaker-widgets.php:18 rsvpmaker-widgets.php:71 rsvpmaker-widgets.php:182
+msgid "Events"
+msgstr "Eventos"
+
+#: rsvpmaker-widgets.php:76 rsvpmaker-widgets.php:163 rsvpmaker-widgets.php:221
+msgid "Title:"
+msgstr "Título:"
+
+#: rsvpmaker-widgets.php:77 rsvpmaker-widgets.php:164
+msgid "Number to Show:"
+msgstr "Numero :"
+
+#: rsvpmaker-widgets.php:79
+msgid "Date Format:"
+msgstr "Formato da data:"
+
+#: rsvpmaker-widgets.php:85
+msgid "All"
+msgstr "Todos"
+
+#: rsvpmaker-widgets.php:117
+msgid "Events by Type"
+msgstr "Eventos por tipo"
+
+#: rsvpmaker-widgets.php:222
+msgid "JSON URL:"
+msgstr ""
+
+#: rsvpmaker-widgets.php:226
+msgid "Maximum # Displayed:"
+msgstr ""
+
+#: rsvpmaker-widgets.php:227
+msgid "URL for more events:"
+msgstr ""
+
+#: rsvpmaker-form.php:233 rsvpmaker-form.php:238
+msgid "Guest"
+msgstr "Convidado"
+
+#: rsvpmaker-form.php:240
+msgid "Add more guests"
+msgstr "Convide alguém"
+
+#: rsvpmaker-form.php:271
+msgid "Delete Guest"
+msgstr "Apagar Convidao"
+
+#: rsvpmaker-form.php:287 rsvpmaker-form.php:289
+msgid "No room for additional guests"
+msgstr ""
+
+#: rsvpmaker-form.php:291
+msgid "No room for additional guests (max per party)"
+msgstr ""
+
+#: rsvpmaker-stripe.php:66
+msgid ""
+"Stripe is in TEST mode. To simulate a transaction, use:<br />Credit card "
+"4111 1111 1111 1111<br />Any future date<br />Any three digit code."
+msgstr ""
+
+#: rsvpmaker-stripe.php:432
+msgid "Set Amount"
+msgstr ""
+
+#: rsvpmaker-stripe.php:600
+msgid "RSVPMaker Stripe Report"
+msgstr ""
+
+#: gutenberg/src/init.php:169
+msgid "Create/update events from template"
+msgstr ""
+
+#: gutenberg/src/init.php:176
+msgid "Edit Template"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "RSVPMaker"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Schedule events, send invitations to your mailing list and track RSVPs. You "
+"get all your familiar WordPress editing tools with extra options for setting "
+"dates and RSVP options. PayPal payments can be added with a little extra "
+"configuration. Email invitations can be sent through MailChimp or to members "
+"of your website community who have user accounts. Recurring events can be "
+"tracked according to a schedule such as \"First Monday\" or \"Every Friday\" "
+"at a specified time, and the software will calculate future dates according "
+"to that schedule and let you track them together. <a href=\"options-general."
+"php?page=rsvpmaker-admin.php\">Options</a>"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.rsvpmaker.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "David F. Carr"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.carrcommunications.com"
+msgstr ""

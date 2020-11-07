@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-12">
+    <form method="POST" action="{{ url_for('bookings_eticket') }}">
+      <div class="form-group">
+        <label for="select-booking">Select booking ID:</label>
+        <select name="booking_id" class="form-control" id="select-booking">
+          {% for (booking_id, email, guest) in bookings %}
+          <option value="{{ booking_id }}">{{ guest }} (Contact: {{ email }})</option>
+          {% endfor %}
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Print E-Ticket</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

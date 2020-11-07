@@ -1,0 +1,22 @@
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitmq:3-alpine
+    container_name: rabbitmq
+    restart: always
+  node:
+    build: .
+    container_name: node
+    depends_on:
+      - rabbitmq
+    restart: always
+    ports:
+      - ${PORT}:3000
+  bot:
+    build: bot
+    container_name: bot
+    depends_on:
+      - rabbitmq
+    restart: always
+    env_file:
+      - ./bot/.env

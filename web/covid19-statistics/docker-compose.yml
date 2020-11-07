@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    image: tomcat:9-jdk11-openjdk
+    container_name: web
+    restart: always
+    user: 65534:65534
+    ports:
+      - 127.0.0.1:1003:8080
+    volumes:
+      - ./flag.txt:/8822dc3420ee2ac422a101f97d392637.txt:ro
+      - ./target/covid19-statistics:/usr/local/tomcat/webapps/ROOT:ro

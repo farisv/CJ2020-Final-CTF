@@ -1,0 +1,432 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RSVPMaker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-12 23:08-0500\n"
+"PO-Revision-Date: 2011-11-29 17:05-0800\n"
+"Last-Translator: Frenchie <mg123@flyinla.com>\n"
+"Language-Team:  <mg1232FLYINLA.COM>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../rsvpmaker-admin.php:66
+msgid "You can check &quot;delete&quot; to remove dates or edit date parameters. Time must be specified in military format (13:00 for 1 p.m.). Leave duration blank, or enter it as a number of hours (&quot;allday&quot; in duration field means time of day will not be displayed)"
+msgstr "Cocher \"Supprimer\" pour supprimer les dates ou modifier les paramètres des dates. L'heure doit être spécifiée en format militaire (13:00 pour 1 heure de l'après-midi). Laisser le champ de durée vide ou insérez le nombre d'heures (\"allday\" dans le champ de durée veut dire qu'aucun horaire ne sera affiché."
+
+#: ../rsvpmaker-admin.php:70
+msgid "Enter one or more dates. For an event starting at 1:30 p.m., you would select 1 p.m. (or 13: for 24-hour format) and then 30 minutes. Specifying the duration is optional."
+msgstr "Insérer une date ou plus. Pour un événement qui commence à 1 heure et demi de l'après midi, choisisser 1 p.m. (ou 13:00) puis 30 minutes. Spécifier la durée est facultatif."
+
+#: ../rsvpmaker-admin.php:79
+msgid "Add More Dates"
+msgstr "Ajouter d'autres dates"
+
+#: ../rsvpmaker-admin.php:99
+msgid "Month:"
+msgstr "Mois :"
+
+#: ../rsvpmaker-admin.php:115
+msgid "Day:"
+msgstr "Jour :"
+
+#: ../rsvpmaker-admin.php:150
+#: ../rsvpmaker-plugabble.php:77
+#: ../rsvpmaker-plugabble.php:80
+#: ../rsvpmaker-plugabble.php:83
+msgid "Year"
+msgstr "Année"
+
+#: ../rsvpmaker-admin.php:159
+#: ../rsvpmaker-admin.php:1092
+msgid "Hour:"
+msgstr "Heure :"
+
+#: ../rsvpmaker-admin.php:163
+#: ../rsvpmaker-admin.php:1096
+msgid "Minutes:"
+msgstr "Minutes :"
+
+#: ../rsvpmaker-admin.php:167
+#: ../rsvpmaker-admin.php:1100
+msgid "Duration"
+msgstr "Durée"
+
+#: ../rsvpmaker-admin.php:168
+#: ../rsvpmaker-admin.php:1101
+msgid "Not set (optional)"
+msgstr "Pas sélectionné (optionelle)"
+
+#: ../rsvpmaker-admin.php:169
+#: ../rsvpmaker-admin.php:1102
+msgid "All day/don't show time in headline"
+msgstr "Toutes la journée/ne pas afficher l'heure dans le titre"
+
+#: ../rsvpmaker-admin.php:191
+msgid "Event Dates, RSVP Options"
+msgstr "Dates des Événements, Options RSVP"
+
+#: ../rsvpmaker-admin.php:1243
+msgid "Event Dates"
+msgstr "Dates des Événements"
+
+#: ../rsvpmaker-display.php:61
+#: ../rsvpmaker-display.php:230
+msgid "Go to Events Page"
+msgstr "Afficher la page des événements"
+
+#: ../rsvpmaker-display.php:255
+msgid "Title:"
+msgstr "Titre :"
+
+#: ../rsvpmaker-display.php:256
+msgid "Number to Show:"
+msgstr "Chiffre à afficher"
+
+#: ../rsvpmaker-display.php:258
+msgid "Date Format:"
+msgstr "Format de la date :"
+
+#: ../rsvpmaker-display.php:281
+msgid "Events Home"
+msgstr "Accueil pour événements"
+
+#: ../rsvpmaker-display.php:375
+msgid "Posted by"
+msgstr "Inscrit par"
+
+#: ../rsvpmaker-display.php:381
+msgid "More Events"
+msgstr "Plus d'événements"
+
+#: ../rsvpmaker-plugabble.php:45
+msgid "Loading default values for RSVPs - check the checkbox to collect RSVPs online"
+msgstr "Paramètres standards pour RSVP - cocher ici pour recueillir les RSVP sur internet"
+
+#: ../rsvpmaker-plugabble.php:58
+msgid "Collect RSVPs"
+msgstr "Recueillir les RSVPs"
+
+#: ../rsvpmaker-plugabble.php:58
+#: ../rsvpmaker-plugabble.php:61
+#: ../rsvpmaker-plugabble.php:64
+msgid "Check to activate"
+msgstr "Cliquer pour activer"
+
+#: ../rsvpmaker-plugabble.php:61
+msgid " Display attendee names and content of note field publicly"
+msgstr "Afficher le nom des participants et le contenu du champ de remarques en public"
+
+#: ../rsvpmaker-plugabble.php:64
+msgid " Include CAPTCHA challenge"
+msgstr "Ajouter le challenge CAPTCHA"
+
+#: ../rsvpmaker-plugabble.php:69
+msgid "Email Address for Notifications"
+msgstr "Adresse électronique pour les notices"
+
+#: ../rsvpmaker-plugabble.php:70
+msgid "Instructions for User"
+msgstr "Instructions pour les utilisateurs"
+
+#: ../rsvpmaker-plugabble.php:72
+msgid "Confirmation Message"
+msgstr "Message de confirmation"
+
+#: ../rsvpmaker-plugabble.php:77
+msgid "Deadline (optional)"
+msgstr "Date limite (facultative)"
+
+#: ../rsvpmaker-plugabble.php:77
+#: ../rsvpmaker-plugabble.php:80
+#: ../rsvpmaker-plugabble.php:83
+msgid "Month"
+msgstr "Mois"
+
+#: ../rsvpmaker-plugabble.php:77
+#: ../rsvpmaker-plugabble.php:80
+#: ../rsvpmaker-plugabble.php:83
+msgid "Day"
+msgstr "Jour"
+
+#: ../rsvpmaker-plugabble.php:78
+msgid "stop collecting RSVPs at midnight"
+msgstr "arrêter de recueillir les RSVPs à minuit"
+
+#: ../rsvpmaker-plugabble.php:80
+msgid "Start Date (optional)"
+msgstr "Date de début (facultive)"
+
+#: ../rsvpmaker-plugabble.php:81
+msgid "start collecting RSVPs"
+msgstr "commercer à receuillir les RSVPs"
+
+#: ../rsvpmaker-plugabble.php:83
+msgid "Reminder (optional)"
+msgstr "Rappel (facultatif)"
+
+#: ../rsvpmaker-plugabble.php:84
+msgid "Send email reminder to people on RSVP list"
+msgstr "Envoyer un rappel par courriel sur la liste de RSVPs"
+
+#: ../rsvpmaker-plugabble.php:88
+msgid "Maximum participants"
+msgstr "Nombre maximum de participants"
+
+#: ../rsvpmaker-plugabble.php:88
+msgid "0 for none specified"
+msgstr "0 pour aucun"
+
+#: ../rsvpmaker-plugabble.php:89
+msgid "Time Slots"
+msgstr "Créneaux d'horaires"
+
+#: ../rsvpmaker-plugabble.php:103
+msgid "Used for volunteer shift signups. Duration must also be set."
+msgstr "Ceci est pour les enregistrements de bénévoles. La durée doit aussi être selectionnée."
+
+#: ../rsvpmaker-plugabble.php:110
+msgid "Pricing for Online Payments"
+msgstr "Prix pour les payments sur internet"
+
+#: ../rsvpmaker-plugabble.php:111
+msgid "You can set a different price for members vs. non-members, adults vs. children, etc."
+msgstr "Vous pouvez choisir des prix différents pour, par exemple, les membres et non-membres, les adultes et les enfants, etc."
+
+#: ../rsvpmaker-plugabble.php:117
+msgid "Tickets"
+msgstr "Billets"
+
+#: ../rsvpmaker-plugabble.php:677
+#: ../rsvpmaker-plugabble.php:705
+msgid "First Name"
+msgstr "Prénom"
+
+#: ../rsvpmaker-plugabble.php:683
+#: ../rsvpmaker-plugabble.php:705
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: ../rsvpmaker-plugabble.php:689
+msgid "Email"
+msgstr "Adresse électronique"
+
+#: ../rsvpmaker-plugabble.php:703
+msgid "Guests"
+msgstr "Invités"
+
+#: ../rsvpmaker-plugabble.php:703
+msgid "If you are bringing guests, please enter their names here"
+msgstr "Si vous venez avec des invités, veuillez inscrire leur noms ici"
+
+#: ../rsvpmaker-plugabble.php:706
+msgid "Add more guests"
+msgstr "Ajouter des invités"
+
+#: ../rsvpmaker-plugabble.php:717
+msgid "Note"
+msgstr "Notice"
+
+#: ../rsvpmaker-plugabble.php:732
+#, php-format
+msgid ""
+"Phone # on file.<br />To update profile, \n"
+"or RSVP for someone else <a href=\"%s\">fetch a blank \n"
+"form</a>"
+msgstr ""
+"No de téléphone enregistré <br/>Pour modifer votre profil, \n"
+"ou RSVP pour quelqu'un d'autre <a href=\"%s\">afficher un formulaire \n"
+"vide</a>"
+
+#: ../rsvpmaker-plugabble.php:822
+#: ../rsvpmaker-plugabble.php:939
+#: ../rsvpmaker-plugabble.php:1192
+msgid "Yes"
+msgstr "Oui"
+
+#: ../rsvpmaker-plugabble.php:822
+#: ../rsvpmaker-plugabble.php:941
+msgid "No"
+msgstr "Non"
+
+#: ../rsvpmaker-plugabble.php:823
+msgid "Your RSVP"
+msgstr "Votre RSVP"
+
+#: ../rsvpmaker-plugabble.php:829
+msgid "Pay by PayPal for"
+msgstr "Payer par PayPal pour"
+
+#: ../rsvpmaker-plugabble.php:842
+msgid "Secure payment processing is provided by <strong>PayPal</strong>. After you click &quot;Next,&quot; we will transfer you to the PayPal website, where you can pay by credit card or with a PayPal account."
+msgstr "Le traitement des paiements sécurisés est assuré par <strong>PayPal</strong>. Lorsque vous cliquerez sur \"Next\", vous serez transferré vers le site internet de PayPal sur lequel vous pourrez faire votre paiement par carte de credit ou avec un compte PayPal."
+
+#: ../rsvpmaker-plugabble.php:903
+msgid "signed up so far. Limit: "
+msgstr "enregistré(s) pour l'instant. Limite :"
+
+#: ../rsvpmaker-plugabble.php:908
+msgid "signed up so far."
+msgstr "enregistré(s) pour l'instant."
+
+#: ../rsvpmaker-plugabble.php:913
+msgid "RSVP deadline is past"
+msgstr "La date limite de RSVP est dépassée."
+
+#: ../rsvpmaker-plugabble.php:915
+msgid "Event date is past"
+msgstr "La date de l'événement est passée."
+
+#: ../rsvpmaker-plugabble.php:917
+msgid "RSVPs accepted starting: "
+msgstr "Les RSVPs seront acceptés à partir de :"
+
+#: ../rsvpmaker-plugabble.php:919
+msgid "RSVPs are closed"
+msgstr "La période de RSVPs est passée"
+
+#: ../rsvpmaker-plugabble.php:931
+#: ../rsvpmaker.php:33
+msgid "RSVP Now!"
+msgstr "RSVP Maintenant !"
+
+#: ../rsvpmaker-plugabble.php:935
+msgid "Names of attendees will be displayed publicly, along with the contents of the notes field."
+msgstr "Le nom des participants sera affiché publiquement ainsi que le contenu du champ de remarques."
+
+#: ../rsvpmaker-plugabble.php:937
+msgid "Your Answer"
+msgstr "Votre réponse"
+
+#: ../rsvpmaker-plugabble.php:950
+msgid "Number of Participants"
+msgstr "Nombre de participants"
+
+#: ../rsvpmaker-plugabble.php:963
+msgid "Choose timeslots"
+msgstr "Choisir une période"
+
+#: ../rsvpmaker-plugabble.php:987
+msgid "Paying For"
+msgstr "Payer pour"
+
+#: ../rsvpmaker-plugabble.php:1060
+msgid "Show Attendees"
+msgstr "Afficher les participants"
+
+#: ../rsvpmaker-plugabble.php:1123
+msgid "RSVPs for"
+msgstr "RSVP pour"
+
+#: ../rsvpmaker-plugabble.php:1192
+msgid "RSVP"
+msgstr "RSVP"
+
+#: ../rsvpmaker-plugabble.php:1216
+#: ../rsvpmaker-plugabble.php:1552
+msgid "guest of"
+msgstr "invité de"
+
+#: ../rsvpmaker-plugabble.php:1549
+msgid "This is an automated reminder that we have you on the RSVP list for the event shown below. If your plans have changed, you can update your response by clicking on the RSVP button again."
+msgstr "Ceci est un rappel automatique que vous êtes enregistré sur notre liste pour l'événement ci-dessous. Si vous avez changé d'idée, veuillez modifier votre réponse en cliquant sur le bouton RSVP à nouveau."
+
+#: ../rsvpmaker-plugabble.php:1571
+msgid "Event Reminder for"
+msgstr "Rappel d'engagement de participation  pour"
+
+#: ../rsvpmaker.php:15
+msgid "RSVPmaker plugin requires WordPress 3.0 or greater"
+msgstr "RSVPmaker requiert Wordpress 3.0 or plus récent "
+
+#: ../rsvpmaker.php:31
+msgid "Thank you!"
+msgstr "Merci !"
+
+#: ../rsvpmaker.php:49
+msgid "Phone"
+msgstr "Téléphone"
+
+#: ../rsvpmaker.php:55
+msgid "Phone Type"
+msgstr "Sorte de téléphone"
+
+#: ../rsvpmaker.php:60
+msgid "Work Phone"
+msgstr "Téléphone pour affaire"
+
+#: ../rsvpmaker.php:61
+msgid "Mobile Phone"
+msgstr "Téléphone portable"
+
+#: ../rsvpmaker.php:62
+msgid "Home Phone"
+msgstr "Téléphone à la maison"
+
+#: ../rsvpmaker.php:82
+msgid "RSVP Events"
+msgstr "Événement avec RSVP"
+
+#: ../rsvpmaker.php:83
+msgid "Add New Event"
+msgstr "Ajouter un nouveau événement"
+
+#: ../rsvpmaker.php:84
+msgid "Edit Event"
+msgstr "Modifier l'événement"
+
+#: ../rsvpmaker.php:85
+msgid "Events"
+msgstr "Événements"
+
+#: ../rsvpmaker.php:86
+msgid "Event"
+msgstr "Événement"
+
+#: ../rsvpmaker.php:106
+msgid "Search Event Types"
+msgstr "Rechercher parmi les sortes d'événement"
+
+#: ../rsvpmaker.php:107
+msgid "All Event Types"
+msgstr "Toutes les sortes d'événement"
+
+#: ../rsvpmaker.php:108
+msgid "Parent Event Type"
+msgstr "Genre d'événement"
+
+#: ../rsvpmaker.php:109
+msgid "Parent Event Type:"
+msgstr "Genre d'événement"
+
+#: ../rsvpmaker.php:110
+msgid "Edit Event Type"
+msgstr "Modifier la sorte d'événement"
+
+#: ../rsvpmaker.php:111
+msgid "Update Event Type"
+msgstr "Metter à jour la sorte d'événement"
+
+#: ../rsvpmaker.php:112
+msgid "Add New Event Type"
+msgstr "Ajouter une nouvelle sorte d'événement"
+
+#: ../rsvpmaker.php:113
+msgid "New Event Type"
+msgstr "Nouvelle sorte d'événement"
+
+#: ../rsvpmaker.php:114
+msgid "Event Type"
+msgstr "Sorte d'événement"
+
+#: ../single-rsvpmaker.php:27
+msgid "Pages:"
+msgstr "Pages :"
+
+#: ../single-rsvpmaker.php:33
+msgid "Edit"
+msgstr "Modifier"
+

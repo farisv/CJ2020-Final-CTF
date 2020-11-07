@@ -1,0 +1,318 @@
+# Copyright (C) 2020 Theme My Login
+# This file is distributed under the same license as the Theme My Login plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme My Login 7.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/theme-my-login\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-06-17T22:14:04+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: theme-my-login\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: admin/functions.php:67
+#: includes/class-theme-my-login-widget.php:23
+msgid "Theme My Login"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://thememylogin.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Creates an alternate login, registration and password recovery experience within your theme."
+msgstr ""
+
+#: admin/extensions.php:71
+msgid "Whoops! Looks like there was an error fetching extensions from the server. Please try again."
+msgstr ""
+
+#: admin/extensions.php:72
+msgid "Error: %s"
+msgstr ""
+
+#: admin/extensions.php:94
+#: admin/functions.php:186
+msgid "Get This Extension"
+msgstr ""
+
+#: admin/extensions.php:104
+msgid "View All Extensions"
+msgstr ""
+
+#: admin/extensions.php:163
+#: admin/extensions.php:189
+msgid "Invalid extension."
+msgstr ""
+
+#: admin/extensions.php:179
+#: admin/settings.php:485
+msgid "Active"
+msgstr ""
+
+#: admin/extensions.php:200
+#: admin/settings.php:491
+msgid "Inactive"
+msgstr ""
+
+#: admin/functions.php:66
+#: admin/functions.php:77
+msgid "Theme My Login Settings"
+msgstr ""
+
+#: admin/functions.php:78
+#: admin/settings.php:98
+msgid "General"
+msgstr ""
+
+#: admin/functions.php:99
+msgid "Theme My Login Licenses"
+msgstr ""
+
+#: admin/functions.php:100
+msgid "Licenses"
+msgstr ""
+
+#: admin/functions.php:109
+msgid "Theme My Login Extensions"
+msgstr ""
+
+#: admin/functions.php:110
+#: admin/functions.php:355
+msgid "Extensions"
+msgstr ""
+
+#: admin/functions.php:163
+msgid "As a token of our gratitude, we would like to offer your an incentive for upgrading Theme My Login to version 7.0. For a limited time, we are offering a <strong>20% discount</strong> when you use the code <strong>SAVINGFACE</strong> at checkout. Act now - this offer won't last!"
+msgstr ""
+
+#: admin/functions.php:179
+msgid "A new <strong>Theme My Login</strong> extension is available!"
+msgstr ""
+
+#: admin/functions.php:278
+#: includes/functions.php:548
+msgid "Theme My Login Actions"
+msgstr ""
+
+#: admin/settings.php:108
+msgid "Registration"
+msgstr ""
+
+#: admin/settings.php:113
+msgid "Slugs"
+msgstr ""
+
+#: admin/settings.php:134
+msgid "AJAX"
+msgstr ""
+
+#: admin/settings.php:139
+msgid "Enable AJAX requests"
+msgstr ""
+
+#: admin/settings.php:150
+#: admin/settings.php:155
+msgid "Login Type"
+msgstr ""
+
+#: admin/settings.php:157
+#: admin/settings.php:177
+msgid "Default"
+msgstr ""
+
+#: admin/settings.php:158
+msgid "Username only"
+msgstr ""
+
+#: admin/settings.php:159
+#: admin/settings.php:178
+msgid "Email only"
+msgstr ""
+
+#: admin/settings.php:170
+#: admin/settings.php:175
+msgid "Registration Type"
+msgstr ""
+
+#: admin/settings.php:185
+msgid "Passwords"
+msgstr ""
+
+#: admin/settings.php:190
+msgid "Allow users to set their own password"
+msgstr ""
+
+#: admin/settings.php:197
+msgid "Auto-Login"
+msgstr ""
+
+#: admin/settings.php:202
+msgid "Automatically log in users after registration"
+msgstr ""
+
+#: admin/settings.php:249
+msgid "The slugs defined here will be used to generate the URL to the corresponding action. You can see this URL below the slug field. If you would like to use pages for these actions, simply make sure the slug for the action below matches the slug of the page you would like to use for that action."
+msgstr ""
+
+#: admin/settings.php:488
+msgid "Invalid"
+msgstr ""
+
+#: admin/settings.php:503
+msgid "Deactivate"
+msgstr ""
+
+#: admin/settings.php:515
+msgid "Activate"
+msgstr ""
+
+#: admin/settings.php:640
+msgid "Welcome to Theme My Login!"
+msgstr ""
+
+#: admin/settings.php:641
+msgid "Below, you can configure how you would like users to register and log in to your site."
+msgstr ""
+
+#: admin/settings.php:642
+msgid "Additionally, you can change the slugs that are used to generate the URLs that represent specific actions."
+msgstr ""
+
+#: admin/settings.php:648
+#: admin/settings.php:671
+#: admin/settings.php:691
+#: admin/settings.php:719
+msgid "View Documentation"
+msgstr ""
+
+#: admin/settings.php:653
+#: admin/settings.php:675
+#: admin/settings.php:726
+msgid "Get Support"
+msgstr ""
+
+#: admin/settings.php:663
+msgid "When you purchase extensions for Theme My Login, you will enter your license keys on this page."
+msgstr ""
+
+#: admin/settings.php:664
+msgid "After you enter your license keys and click the Save Changes button at the bottom of the screen, you will see a new button next to each field with a license in it."
+msgstr ""
+
+#: admin/settings.php:665
+msgid "If you have not yet activated your license, this button will say \"Activate\". Click this button to activate your license."
+msgstr ""
+
+#: admin/settings.php:666
+msgid "If you have already activated your license, this button will say \"Deactivate\". Click this button to deactivate your license."
+msgstr ""
+
+#: admin/settings.php:685
+msgid "This page shows you all of the extensions available to purchase for Theme My Login."
+msgstr ""
+
+#: admin/settings.php:686
+msgid "Once you purchase an extension, you download it from your email receipt or your account page on our website. Then, you install it just like a normal WordPress plugin."
+msgstr ""
+
+#: admin/settings.php:695
+msgid "Go to the Extensions Store"
+msgstr ""
+
+#: admin/settings.php:699
+msgid "View your Theme My Login account"
+msgstr ""
+
+#: admin/settings.php:710
+msgid "On this page, you can configure the settings for the Theme My Login %s extension."
+msgstr ""
+
+#: includes/actions.php:80
+msgid "Your Data Request"
+msgstr ""
+
+#: includes/actions.php:519
+msgid "Registration complete. You may now log in."
+msgstr ""
+
+#: includes/class-theme-my-login-widget.php:25
+msgid "A login form for your site."
+msgstr ""
+
+#: includes/class-theme-my-login-widget.php:57
+msgctxt "Howdy"
+msgid "Welcome"
+msgstr ""
+
+#: includes/class-theme-my-login-widget.php:177
+msgid "Show action links?"
+msgstr ""
+
+#: includes/extensions.php:189
+#: includes/extensions.php:222
+#: includes/extensions.php:252
+#: includes/extensions.php:287
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/extensions.php:196
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/extensions.php:202
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/extensions.php:210
+msgid "Invalid license."
+msgstr ""
+
+#: includes/extensions.php:214
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/extensions.php:218
+msgid "You are attempting to activate a bundle license. Please use the license that corresponds to the individual extension you are attemtping to activate."
+msgstr ""
+
+#: includes/extensions.php:257
+msgid "Unable to deactivate license. Please deactivate it on <a href=\"%1$s\" target=\"_blank\">our site</a>."
+msgstr ""
+
+#: includes/forms.php:146
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/functions.php:549
+msgid "Theme My Login Action"
+msgstr ""
+
+#: includes/functions.php:577
+#: includes/functions.php:604
+#: includes/functions.php:619
+msgid "TML Action"
+msgstr ""
+
+#: includes/functions.php:683
+msgid "<strong>Error</strong>: Please enter a password."
+msgstr ""
+
+#: includes/functions.php:686
+msgid "<strong>Error</strong>: Passwords may not contain the character \"\\\"."
+msgstr ""
+
+#: includes/functions.php:689
+msgid "<strong>Error</strong>: Please enter the same password in both password fields."
+msgstr ""
+
+#: includes/functions.php:706
+msgid "If you have already set your own password, you may disregard this email and use the password you have already set."
+msgstr ""

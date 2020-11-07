@@ -1,0 +1,24 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 1698-97D5
+
+ Directory of C:\Users\DavidF\web\beta\public_html\wp-content\plugins\rsvpmaker\translations
+
+05/31/2015  06:30 PM    <DIR>          .
+05/31/2015  06:30 PM    <DIR>          ..
+05/31/2015  05:45 PM            19,151 rsvpmaker-es_ES.mo
+05/31/2015  05:45 PM            38,602 rsvpmaker-es_ES.po
+04/05/2015  04:43 PM             8,752 rsvpmaker-fr_FR.mo
+04/05/2015  04:43 PM            12,188 rsvpmaker-fr_FR.po
+04/05/2015  04:43 PM            21,280 rsvpmaker-nb_NO.mo
+04/05/2015  04:43 PM            34,949 rsvpmaker-nb_NO.po
+04/05/2015  04:43 PM             8,665 rsvpmaker-pl_PL.mo
+04/05/2015  04:43 PM            12,206 rsvpmaker-pl_PL.po
+04/05/2015  04:43 PM            21,165 rsvpmaker-tt_TT.mo
+04/05/2015  04:43 PM            33,825 rsvpmaker-tt_TT.po
+05/08/2015  08:28 PM               506 rsvpmaker.mo
+05/08/2015  08:28 PM            28,150 rsvpmaker.pot
+05/08/2015  10:37 PM               586 translation-readme.txt
+05/31/2015  06:30 PM                 0 translations.txt
+04/05/2015  06:39 PM    <DIR>          _notes
+              14 File(s)        240,025 bytes
+               3 Dir(s)  845,676,126,208 bytes free

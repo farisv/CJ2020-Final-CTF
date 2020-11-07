@@ -1,0 +1,57 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="py-5 text-center">
+  <h2>{{ hotel_name }}</h2>
+  <p class="lead">{{ hotel_description }}</p>
+</div>
+<div class="row">
+  <div class="col-md-4 order-md-2 mb-4">
+    <h4 class="d-flex justify-content-between align-items-center mb-3">
+      <span class="text-muted">Booking</span>
+      <span class="badge badge-secondary badge-pill">1</span>
+    </h4>
+    <ul class="list-group mb-3">
+      <li class="list-group-item d-flex justify-content-between">
+        <span>Total</span>
+        <strong>{{ hotel_price | currency }}</strong>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-8 order-md-1">
+    <form method="POST">
+      <h4 class="mb-3">Contact details</h4>
+      <div class="row">
+        <div class="col-md-12 mb-2">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="john.doe@abc.xyz" disabled
+            required>
+        </div>
+        <div class="custom-control custom-checkbox ml-3 mb-3">
+          <input type="checkbox" class="custom-control-input" id="use-email" checked>
+          <label class="custom-control-label" for="use-email">Use my email</label>
+        </div>
+        <div class="col-md-12 mb-3">
+          <label for="phone">Phone number</label>
+          <input type="text" class="form-control" id="phone" name="phone" placeholder="080989999" required>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <h4 class="mb-3">Guest</h4>
+      <div class="row">
+        <div class="col-md-12 mb-3">
+          <label for="guest">Full name</label>
+          <input type="text" class="form-control" id="guest" name="guest" placeholder="John Doe" required>
+        </div>
+      </div>
+      <button class="btn btn-primary btn-lg btn-block" type="submit">Book now</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  document.querySelector('#use-email').addEventListener('change', function (event) {
+    document.querySelector('#email').disabled = event.target.checked;
+  });
+</script>
+{% endblock %}

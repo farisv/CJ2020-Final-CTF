@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CJ Travel</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  {% block head %}{% endblock %}
+</head>
+
+<body>
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="{{ url_for('index') }}" class="text-decoration-none">CJ Travel</a></h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+      {% if 'user' in session %}
+      <a class="p-2 text-dark" href="{{ url_for('bookings_route') }}">Bookings</a>
+      {% else %}
+      <a class="p-2 text-dark" href="{{ url_for('login') }}">Login</a>
+      {% endif %}
+    </nav>
+    {% if 'user' in session %}
+    <a class="btn btn-outline-primary" href="{{ url_for('logout') }}">Logout</a>
+    {% else %}
+    <a class="btn btn-outline-primary" href="{{ url_for('register') }}">Register</a>
+    {% endif %}
+  </div>
+  <div class="container">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% for category, message in messages %}
+        <div class="alert alert-{{ category }}">{{ message }}</div>
+      {% endfor %}
+    {% endwith %}
+
+    {% block content %}{% endblock %}
+  </div>
+</body>
+
+</html>

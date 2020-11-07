@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+    http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cyber.jawara.ctf</groupId>
+    <artifactId>cyber-jawara-ctf</artifactId>
+    <packaging>war</packaging>
+    <version>1.0.0</version>
+    <name>Cyber Jawara CTF</name>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7</version>
+            </dependency>
+        <dependency>
+             <groupId>org.apache.velocity</groupId>
+             <artifactId>velocity-tools</artifactId>
+             <version>2.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>covid19-statistics</finalName>
+    </build>
+</project>

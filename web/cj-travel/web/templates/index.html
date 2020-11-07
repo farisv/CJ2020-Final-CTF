@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-4">Hotels</h1>
+  <p class="lead">Planning a staycation? We got you!</p>
+</div>
+
+<div class="card-deck mb-3 text-center">
+  {% for (hotel_id, hotel_name, hotel_price, hotel_description) in hotels %}
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">{{ hotel_name }}</h4>
+    </div>
+    <div class="card-body">
+      <h1 class="card-title pricing-card-title">{{ hotel_price | currency }}</small></h1>
+      <ul class="list-unstyled mt-3 mb-4">
+        <li>{{ hotel_description }}</li>
+      </ul>
+      <a href="{{ url_for('hotels_route', hotel_id=hotel_id) }}" role="button"
+        class="btn btn-lg btn-block btn-primary">View</a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
