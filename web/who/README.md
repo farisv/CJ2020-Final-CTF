@@ -2,7 +2,7 @@
 
 ## Deploy
 
-Run `docker-compose up -d` and then set up the WordPress + RSVPMaker 8.0.5 plugin by yourself.
+Run `docker-compose up -d` and then set up the WordPress + [RSVPMaker 8.0.5 plugin](https://downloads.wordpress.org/plugin/rsvpmaker.8.0.5.zip) by yourself.
 
 ## Scenario
 
