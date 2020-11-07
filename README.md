@@ -26,6 +26,8 @@ This repository contains the problemset for Cyber Jawara 2020 Final.
 | [Malware](https://github.com/farisv/CJ2020-Final-CTF/tree/master/re/malware) | RE | Visat |
 | [Inothing](https://github.com/farisv/CJ2020-Final-CTF/tree/master/re/inothing) | RE | Visat |
 
+Credit to Jason for testing my pwn challenges.
+
 ## Solutions
 
-This is the [after-event presentation slides](https://github.com/farisv/CJ2020-Final-CTF/blob/master/%5BBahasa%20Indonesia%5D%20Final%20Cyber%20Jawara%202020%20-%20Statistik%20%26%20Solusi.pdf) about the statistics & solutions of each challenge (in Indonesian language).
+This is the [after-event presentation](https://github.com/farisv/CJ2020-Final-CTF/blob/master/%5BBahasa%20Indonesia%5D%20Final%20Cyber%20Jawara%202020%20-%20Statistik%20%26%20Solusi.pdf) about the statistics & solutions of each challenge (in Indonesian language).
