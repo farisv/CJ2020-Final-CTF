@@ -1,8 +1,8 @@
-# <img src="static/cj-logo.png" width="30" height="35"> Cyber Jawara 2020 Final (Jeopardy) - Problemset
+# <img src="static/cj-logo.png" width="40" height="35"> Cyber Jawara 2020 Final (Jeopardy) - Problemset
 
 Cyber Jawara is an annual national cyber security competition in Indonesia. The final competition for Cyber Jawara 2020 was held online due to the COVID-19 situation.
 
-This repository contains the problemset for Cyber Jawara 2020.
+This repository contains the problemset for Cyber Jawara 2020 Final.
 
 ## Final Scoreboard
 
